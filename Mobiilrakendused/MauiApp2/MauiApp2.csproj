@@ -71,6 +71,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="TreePage.xaml.cs">
+	    <DependentUpon>TreePage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="TreePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Timer_Page.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
